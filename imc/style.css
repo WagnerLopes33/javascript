@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6fb;
+    color: #1d2433;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+header h1{
+    margin-top: 0;
+    font-size: 1.5rem;
+    
+}
+main{
+    background-color: #fff;
+    border: 1px solid #dde1ec;
+    border-radius: 12px;
+    padding: 20px;
+    width: 100%;
+    max-width: 420px;
+}
+
+label{
+    display: block;
+    margin: 12px  0 4px;
+    font-weight: bolder;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #c5cbdb;
+    border-radius: 8px;
+
+}
+button {
+  margin: 14px 8px 0 0;
+  padding: 10px 16px;
+  font-size: 1rem;
+  color: #fff;
+  background: #3b5bdb;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover { 
+    background: #2f49b3; 
+}
+button.secundario {
+  background: transparent;
+  color: #3b5bdb;
+  border: 1px solid #3b5bdb;
+}
+/* ===== Resultado (as classes c0..c4 são trocadas pelo JavaScript) ===== */
+#resultado {
+  margin-top: 16px;
+  padding: 12px;
+  border: 1px dashed #c5cbdb;
+  border-radius: 8px; 
+  min-height: 48px;
+}
+#resultado.c0 { background: #d0ebff; color: #0b3d66; border-style: solid; }
+#resultado.c1 { background: #d3f9d8; color: #0b4a1d; border-style: solid; }
+#resultado.c2 { background: #fff3bf; color: #5c4400; border-style: solid; }
+#resultado.c3 { background: #ffd8a8; color: #6b2e00; border-style: solid; }
+#resultado.c4 { background: #ffc9c9; color: #6b0f0f; border-style: solid; }
+
+
+/* ===== Histórico ===== */
+#historico { padding-left: 20px; }
+#historico li { cursor: pointer; margin-bottom: 4px; }
+#historico li:hover { text-decoration: line-through; color: #888; }
+
+
+
+
+
+h2{
+    font-size: 1.05rem;
+}
+
+
+.aviso { font-size: 0.8rem; color: #667; }

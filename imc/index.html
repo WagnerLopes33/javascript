@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de IMC</h1>
+    </header>
+    <main>
+        <label for="peso">Peso</label>
+        <input type="number" id="peso" step="0.1" placeholder="ex.:70,0">
+        <label for="altura">Altura</label>
+        <input type="number" id="altura" step="0.01" placeholder="ex.:1,75">
+
+        <button id="calcular">Calcular IMC</button>
+        <button id="limpar" class="secundario">Limpar histórico</button>
+
+        <div id="resultado">
+            Preencha os campos e clique em calcular
+        </div>
+
+        <h2>Histórico</h2>
+        <ul id="historico">
+
+        </ul>
+    </main>
+    <footer>
+        <p class="aviso"> O IMC é apenas um indicativo de triagem e não substitui avaliação profissional</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
